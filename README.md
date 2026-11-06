@@ -1,17 +1,14 @@
 
-# Hi, I'm Daneebyte👋
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=20&color=FF8FAB&center=true&width=800&height=50&lines=✧+DANIEBYTE.EXE+✧;Hi%2C+I'm+Dania!+✨" alt="Dania's Header"/>
+</p>
 
-```cpp
-#include <iostream>
-#include <vector>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=10&color=FFC2D1&center=true&width=800&height=40&lines=Game+Dev+%E2%9D%86+Cyberpunk+%E2%9D%86+AI+%2F+Machine+Learning+%E2%9D%86+C%2B%2B" alt="Sub header"/>
+</p>
 
-class Developer {
-public:
-    std::string role = "CS Student & Software Developer";
-    std::vector<std::string> stack = {"C++", "C", "Python", "SFML"};
-    std::string currentFocus = "Network Intrusion Detection System & Huffman Compression";
-    
-    void goals() {
-        std::cout << "Bridging low-level math, C++ visuals, and data science!\n";
-    }
-};
+<p align="center">
+  🔒 <i>"Building visual matrix systems & intelligent pixels."</i> 🔒
+</p>
+
+<div align="center">
