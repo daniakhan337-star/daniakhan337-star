@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 290" width="900" height="290" role="img" aria-label="Notebook page: bug registry">
+  <defs>
+    <clipPath id="n1"><rect x="60" y="66" height="34" width="0">
+      <animate attributeName="width" dur="12s" repeatCount="indefinite" values="0;0;168;168;0;0" keyTimes="0;0.05;0.15;0.93;0.96;1"/>
+    </rect></clipPath>
+    <clipPath id="n2"><rect x="60" y="106" height="34" width="0">
+      <animate attributeName="width" dur="12s" repeatCount="indefinite" values="0;0;372;372;0;0" keyTimes="0;0.18;0.34;0.93;0.96;1"/>
+    </rect></clipPath>
+    <clipPath id="n3"><rect x="60" y="146" height="34" width="0">
+      <animate attributeName="width" dur="12s" repeatCount="indefinite" values="0;0;300;300;0;0" keyTimes="0;0.37;0.52;0.93;0.96;1"/>
+    </rect></clipPath>
+    <clipPath id="n4"><rect x="60" y="186" height="34" width="0">
+      <animate attributeName="width" dur="12s" repeatCount="indefinite" values="0;0;480;480;0;0" keyTimes="0;0.55;0.72;0.93;0.96;1"/>
+    </rect></clipPath>
+  </defs>
+
+  <rect width="900" height="290" rx="8" fill="#050505"/>
+  <rect x="14" y="14" width="872" height="262" rx="4" fill="#0f0f0f" stroke="#2a2a2a"/>
+  <rect x="14" y="14" width="10" height="262" fill="#1a1a1a"/>
+
+  <text x="60" y="48" font-family="'Courier New', Courier, monospace" font-size="15" font-weight="bold" fill="#b3121d" letter-spacing="5">BUG REGISTRY</text>
+  <text x="840" y="48" text-anchor="end" font-family="'Courier New', Courier, monospace" font-size="13" fill="#5a5a5a" letter-spacing="3">PAGE 01</text>
+
+  <g stroke="#2a2a2a" stroke-width="1">
+    <line x1="50" y1="94" x2="850" y2="94"/>
+    <line x1="50" y1="134" x2="850" y2="134"/>
+    <line x1="50" y1="174" x2="850" y2="174"/>
+    <line x1="50" y1="214" x2="850" y2="214"/>
+    <line x1="50" y1="254" x2="850" y2="254"/>
+  </g>
+  <line x1="44" y1="56" x2="44" y2="268" stroke="#7a0f15" stroke-width="1.5"/>
+
+  <g font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="23">
+    <g clip-path="url(#n1)">
+      <text x="60" y="90" fill="#d9d9d9" textLength="168" lengthAdjust="spacingAndGlyphs">name: segfault</text>
+    </g>
+    <g clip-path="url(#n2)">
+      <text x="60" y="130" fill="#bdbdbd" textLength="372" lengthAdjust="spacingAndGlyphs">cause: null pointer dereference</text>
+    </g>
+    <g clip-path="url(#n3)">
+      <text x="60" y="170" fill="#bdbdbd" textLength="300" lengthAdjust="spacingAndGlyphs">time of death: 40 seconds</text>
+    </g>
+    <g clip-path="url(#n4)">
+      <text x="60" y="210" fill="#b3121d" textLength="480" lengthAdjust="spacingAndGlyphs">status: resolved. no commit left behind.</text>
+    </g>
+  </g>
+
+  <rect x="58" y="82" height="3" width="0" fill="#b3121d">
+    <animate attributeName="width" dur="12s" repeatCount="indefinite" values="0;0;0;176;176;0;0" keyTimes="0;0.05;0.75;0.80;0.93;0.96;1"/>
+  </rect>
+
+  <circle cx="810" cy="236" r="4" fill="#b3121d">
+    <animate attributeName="opacity" values="1;0.2;1" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
+</svg>
